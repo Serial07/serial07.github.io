@@ -1,0 +1,83 @@
+.abril { font-family: 'Abril Fatface', cursive; }
+.josefin { font-family: 'Josefin Sans', sans-serif; }
+.merri { font-family: 'Merriweather', serif; }
+.uppercase { text-transform: uppercase; }
+.weight300 { font-weight: 300; }
+.weight500 { font-weight: 500; }
+.weight600 { font-weight: 600; }
+.weight700 { font-weight: 700; }
+.italic { font-style: italic; }
+.spacing { letter-spacing: 1px; }
+ul { list-style-type: square; }
+.size14 { font-size: 14px; }
+.size15 { font-size: 15px; }
+.size15_5 { font-size: 15.5px; }
+.size19 { font-size: 19px; }
+.size22 { font-size: 22px; }
+.size24 { font-size: 24px; }
+.lineHeight23 { line-height: 23px; }
+.lineHeight30 { line-height: 30px; }
+.lineHeight33 { line-height: 33px; }
+.lineHeight35 { line-height: 35px; }
+.margin40X { margin: 40px 0px; }
+.margin50X { margin: 50px 0px; }
+.margin30N { margin-top: 30px; }
+.margin60N { margin-top: 60px; }
+.margin30S { margin-bottom: 30px; }
+.margin50S { margin-bottom: 50px; }
+.margin75S { margin-bottom: 75px; }
+
+#wrapper {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  background: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  font-size: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: normal;
+}
+
+#text-wrapper {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#skywalker {
+  font-size: 84px;
+  margin-top: -20px;
+}
+
+#content {
+  width: 56%;
+  margin: auto;
+  color: #222;
+}
+
+blockquote {
+  background-color: rgb(68, 68, 68);
+  color: #ffffff;
+  background-image: url("https://i.imgur.com/JQNuJWA.png");
+  background-repeat: no-repeat;
+  font-size: 50px;
+  padding: 60px 50px;
+  padding: 50px;
+  line-height: 75px;
+  width: 102.5%;
+  margin-left: -8%;
+}
+
+hr {
+  height: 4px;
+  border: none;
+  background-color: rgb(68, 68, 68);
+  width: 103%;
+  margin-left: -1.5%;
+}
